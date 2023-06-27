@@ -1,0 +1,144 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    background-color:#00cc66;
+    min-height: 100vh;
+    width: 110vw;
+}
+
+
+
+/* quiz container */
+.quiz-container {
+    background-color: #9bf9ca ;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+    width: 600px;
+    min-height: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+
+.answers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 30px;
+    align-self: center;
+    column-gap: 130px;
+    transform: translateX(-40px);
+}
+
+.answer-container {
+    background-color: white;
+    border-radius: 18px;
+    padding: 10px 10px;
+    width: 160px;
+    text-align: center;
+    min-height: 60px;
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 15px;
+}
+
+/* quiz result */
+
+.result {
+    background-color:#00cc66;
+    width: 100vw;
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+    transform: translateY(-400px);
+    padding-bottom: 50px;
+}
+
+.result.show {
+    opacity: 1;
+    height: 100vh;
+    transform: translateY(0px);
+}
+
+.result {
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+.scoring {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 1px 10px;
+    width: 600px;
+    background-color: #c4f8de;
+    padding: 2px 15px;
+    margin-top: 10px;
+}
+
+.scoring p {
+    font-size: 18px;
+}
+
+.scoring p2 {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: center;
+}
+
+.summary-container h2 {
+    font-size: 24px;
+}
+
+.summary-container p {
+    font-size: 19px;
+    max-width: 620px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.button-container button {
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 170px;
+}
+
+.home-button {
+    background-color: #ffffff;
+    color: #00cc66;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #00cc66;
+}
+
+.book-button {
+    background-color: #03914a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+.book-button a {
+    text-decoration: none;
+    color: white;
+}

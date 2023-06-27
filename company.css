@@ -1,0 +1,136 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* header */
+  header {
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+  }
+  
+  
+  nav h1 {
+    font-size: 34px;
+  
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+   
+  }
+
+  .get-started-button {
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+
+  .main-container {
+    background-color: #f2f2f2;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+  }
+
+
+  /* company container */
+  .company-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-container img {
+    align-self: flex-end;
+  }
+
+  .company-name-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80px;
+    top: 110px;
+    font-size: 40px;
+  }
+
+  .healthy-text {
+    color: #00ff80;
+    transform: translateY(-90px);
+  }
+
+  .people-text {
+    transform: translateY(-180px);
+  }
+
+  .vision-mission-container {
+    text-align: center;
+    background-color: #11ed7fb7;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .vision-mission-container-text {
+    background-color: #f1fef7;
+    border-radius: 15px;
+    width: 50vw;
+    align-self: center;
+    padding: 20px 120px;
+    
+  }
+
+  .vision-mission-container-text h2 {
+    font-size: 45px;
+  }
+
+  .vision-mission-container p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .slogan-container {
+    margin-top: 70px;
+    font-size: 35px;
+    margin-bottom: 80px;
+    position: relative;
+  }
+ p2 {
+    position: absolute;
+    top: 1270px;
+    left: 855px;
+  }
